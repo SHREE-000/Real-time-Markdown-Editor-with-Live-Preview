@@ -1,0 +1,50 @@
+/* .editor-container {
+  display: flex;
+  gap: 20px;
+  margin: 5%;
+}
+
+textarea {
+  width: 50%;
+  min-height: 70vh;
+  padding: 5px;
+}
+
+.preview {
+  width: 50%;
+  min-height: 70vh;
+  border: 1px solid #ddd;
+  padding: 5px;
+  overflow-y: auto;
+} */
+
+.editor-container {
+  display: flex;
+  gap: 20px;
+  margin: 5%;
+}
+
+textarea {
+  width: 50%;
+  min-height: 70vh;
+  padding: 5px;
+}
+
+.preview {
+  width: 50%;
+  min-height: 70vh;
+  border: 1px solid #ddd;
+  padding: 5px;
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .editor-container {
+    flex-direction: column;
+  }
+
+  textarea,
+  .preview {
+    width: 100%;
+  }
+}
